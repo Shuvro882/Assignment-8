@@ -1,22 +1,42 @@
 import React from 'react';
-
 import { 
   createBrowserRouter,
   RouterProvider,
  } from "react-router";
 import Home from '../Pages/Home';
-import Products from '../Pages/Products';
+import MainLayouts from '../Layouts/MainLayouts';
+import Apps from '../Pages/Apps';
+import ErrorPage from '../Pages/ErrorPage';
+import Installs from '../Pages/Installs';
 
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
+    element: <MainLayouts />,
+    errorElement:<ErrorPage />,
+    hydrateFallbackElement:<p>Loading...</p>,
+    children:[
+      {
+        index:true,
+        element:<Home />,
+        loader: () => fetch('./AppsData.json'),
+      },
+      {
+    path: "/Apps",
+    element: <Apps />,
   },
   {
-    path: "/Products",
-    element: <Products />,
+    path: "/Installs",
+    element: <Installs />,
+  }
+    ]
   },
+  // {
+  //   path: "*",
+  //   element: <ErrorPage />,
+  // },
+  
 ]);
 
 export default router;
