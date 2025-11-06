@@ -12,8 +12,10 @@ const Apps = () => {
    
     return (
              <div className='max-w-screen-2xl w-full sm:px-4 md:px-8 lg:px-12 sm:py-4 md:py-7 lg:py-10'>
-                <div className=' mx-auto justify-center text-center'>
-                    <h1 className='font-bold text-5xl'>Our All Applications</h1>
+                <div className=' mx-auto text-center'>
+                    <h1 className="font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-center">
+                     Our All Applications
+                    </h1>
                     <p className='text-[#627382] my-2'>Explore All Apps on the Market developed by us. We code for Millions</p>
                 </div>
                 <div className='flex justify-between my-4'>

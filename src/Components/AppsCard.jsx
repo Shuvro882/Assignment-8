@@ -17,7 +17,7 @@ const AppsCard = ({ app }) => {
     
     <div className="card-actions flex justify-between">
       
-      <button className='btn text-[#00D390] text-sm bg-[#F1F5E8]'><a><img className='w-3 h-4' src={download} alt="" /></a>{downloads}</button>
+      <button className='btn text-[#00D390] text-sm bg-[#F1F5E8]'><a><img className='w-3 h-4' src={download} alt="" /></a>{downloads}M</button>
       <button className="btn text-[#FF8811] text-sm bg-[#FFF0E1]"><a><img className='w-3 h-4' src={rating} alt="" /></a>{ratingAvg}</button>
       </div>
 
