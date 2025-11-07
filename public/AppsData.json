@@ -6,15 +6,15 @@
     "id": 1,
     "description": "Fitness Pro helps you achieve your fitness goals by providing personalized workout plans, calorie tracking, diet charts, and exercise videos. The app generates weekly and monthly progress reports based on your physical condition. Additionally, the community feature allows users to share experiences and motivate each other. It is designed to take your health and fitness journey to the next level.",
     "size": 45,
-    "reviews": 1200,
+    "reviews": 7500,
     "ratingAvg": 4.5,
     "downloads": "5",
     "ratings": [
-      { "name": "1 star", "count": 50 },
-      { "name": "2 star", "count": 30 },
-      { "name": "3 star", "count": 120 },
-      { "name": "4 star", "count": 400 },
-      { "name": "5 star", "count": 600 }
+      { "name": "1 star", "count": 1100 },
+      { "name": "2 star", "count": 1350 },
+      { "name": "3 star", "count": 1800 },
+      { "name": "4 star", "count": 2100 },
+      { "name": "5 star", "count": 2650 }
     ]
   },
   {
@@ -24,15 +24,15 @@
     "id": 2,
     "description": "PhotoMaster allows you to enhance your photographs with advanced editing tools, filters, frames, and effects. The user-friendly interface provides step-by-step guidance for quick and professional editing. Features include background replacement, color correction, facial touch-ups, and optimized export formats for social media sharing. It is perfect for photographers and casual users alike.",
     "size": 65,
-    "reviews": 870,
+    "reviews": 5200,
     "ratingAvg": 4.2,
     "downloads": "3",
     "ratings": [
-      { "name": "1 star", "count": 40 },
-      { "name": "2 star", "count": 25 },
-      { "name": "3 star", "count": 100 },
-      { "name": "4 star", "count": 300 },
-      { "name": "5 star", "count": 405 }
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 1300 },
+      { "name": "3 star", "count": 1400 },
+      { "name": "4 star", "count": 1900 },
+      { "name": "5 star", "count": 2200 }
     ]
   },
   {
@@ -40,17 +40,17 @@
     "title": "Task Manager",
     "companyName": "Productive Labs",
     "id": 3,
-    "description": "Task Manager helps you organize daily tasks, projects, and reminders efficiently. It includes to-do lists, priority settings, and deadline reminders. Users can categorize tasks and view weekly or monthly reports. The group sharing feature enables collaboration with colleagues or family. It is an essential tool for improving time management and productivity in everyday life.Task Manager helps you organize daily tasks, projects, and reminders efficiently. It includes to-do lists, priority settings, and deadline reminders. Users can categorize tasks and view weekly or monthly reports. The group sharing feature enables collaboration with colleagues or family. It is an essential tool for improving time management and productivity in everyday life.",
+    "description": "Task Manager helps you organize daily tasks, projects, and reminders efficiently. It includes to-do lists, priority settings, and deadline reminders. Users can categorize tasks and view weekly or monthly reports. The group sharing feature enables collaboration with colleagues or family. It is an essential tool for improving time management and productivity in everyday life.",
     "size": 30,
-    "reviews": 2000,
+    "reviews": 9800,
     "ratingAvg": 4.6,
     "downloads": "7",
     "ratings": [
-      { "name": "1 star", "count": 30 },
-      { "name": "2 star", "count": 20 },
-      { "name": "3 star", "count": 150 },
-      { "name": "4 star", "count": 600 },
-      { "name": "5 star", "count": 1200 }
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 1250 },
+      { "name": "3 star", "count": 1650 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 3200 }
     ]
   },
   {
@@ -60,15 +60,15 @@
     "id": 4,
     "description": "Travel Buddy makes trip planning easy and enjoyable. It allows users to search and book flights, hotels, and tours. You can find options within your budget and read reviews to make informed decisions. Real-time maps and location-based suggestions help in planning your route. Users can add photos and notes to document their trips, making every journey memorable and organized.",
     "size": 55,
-    "reviews": 1500,
+    "reviews": 11200,
     "ratingAvg": 4.4,
     "downloads": "6",
     "ratings": [
-      { "name": "1 star", "count": 60 },
-      { "name": "2 star", "count": 40 },
-      { "name": "3 star", "count": 200 },
-      { "name": "4 star", "count": 500 },
-      { "name": "5 star", "count": 700 }
+      { "name": "1 star", "count": 1600 },
+      { "name": "2 star", "count": 1700 },
+      { "name": "3 star", "count": 2100 },
+      { "name": "4 star", "count": 3100 },
+      { "name": "5 star", "count": 3700 }
     ]
   },
   {
@@ -78,15 +78,15 @@
     "id": 5,
     "description": "MusicFlow allows you to stream and download your favorite music tracks seamlessly. It offers curated playlists, artist radio, and updates on new releases. You can create personalized playlists and enjoy high-quality sound through headphones or speakers. The app also provides information on live concerts and events, making it a complete music companion for all music lovers.",
     "size": 70,
-    "reviews": 2300,
+    "reviews": 6400,
     "ratingAvg": 4.7,
     "downloads": "2",
     "ratings": [
-      { "name": "1 star", "count": 20 },
-      { "name": "2 star", "count": 15 },
-      { "name": "3 star", "count": 100 },
-      { "name": "4 star", "count": 600 },
-      { "name": "5 star", "count": 1565 }
+      { "name": "1 star", "count": 1050 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 1600 },
+      { "name": "4 star", "count": 2000 },
+      { "name": "5 star", "count": 2300 }
     ]
   },
   {
@@ -96,15 +96,15 @@
     "id": 6,
     "description": "Foodie helps you discover restaurants, order food, and read reviews effortlessly. It provides detailed menus, photos, ratings, and recommendations based on your taste preferences. Users can track delivery in real-time, save favorite restaurants, and explore trending dishes. The app also supports group ordering and special discounts, making it a must-have for food enthusiasts and casual diners.",
     "size": 50,
-    "reviews": 1100,
+    "reviews": 8600,
     "ratingAvg": 4.3,
     "downloads": "4",
     "ratings": [
-      { "name": "1 star", "count": 30 },
-      { "name": "2 star", "count": 25 },
-      { "name": "3 star", "count": 150 },
-      { "name": "4 star", "count": 400 },
-      { "name": "5 star", "count": 495 }
+      { "name": "1 star", "count": 1300 },
+      { "name": "2 star", "count": 1400 },
+      { "name": "3 star", "count": 1600 },
+      { "name": "4 star", "count": 2100 },
+      { "name": "5 star", "count": 2200 }
     ]
   },
   {
@@ -114,15 +114,15 @@
     "id": 7,
     "description": "Language Learner provides interactive lessons and quizzes to help you learn new languages effectively. The app includes pronunciation guides, vocabulary building exercises, and grammar tips. Users can track progress, earn badges, and compete with friends. It also offers audio lessons and real-world conversation practice, making language learning fun and immersive.",
     "size": 80,
-    "reviews": 900,
+    "reviews": 4100,
     "ratingAvg": 4.5,
     "downloads": "3",
     "ratings": [
-      { "name": "1 star", "count": 20 },
-      { "name": "2 star", "count": 15 },
-      { "name": "3 star", "count": 120 },
-      { "name": "4 star", "count": 300 },
-      { "name": "5 star", "count": 445 }
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 1150 },
+      { "name": "3 star", "count": 1350 },
+      { "name": "4 star", "count": 1600 },
+      { "name": "5 star", "count": 1800 }
     ]
   },
   {
@@ -132,15 +132,15 @@
     "id": 8,
     "description": "Meditation Calm helps you relax and reduce stress with guided meditation sessions, breathing exercises, and soothing sounds. Users can choose session lengths based on their schedule, track progress, and set daily reminders. The app also includes sleep stories, ambient music, and mindfulness exercises to enhance mental well-being and improve focus.",
     "size": 40,
-    "reviews": 1400,
+    "reviews": 7800,
     "ratingAvg": 4.6,
     "downloads": "6",
     "ratings": [
-      { "name": "1 star", "count": 25 },
-      { "name": "2 star", "count": 20 },
-      { "name": "3 star", "count": 150 },
-      { "name": "4 star", "count": 500 },
-      { "name": "5 star", "count": 705 }
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 1300 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 1900 },
+      { "name": "5 star", "count": 2200 }
     ]
   },
   {
@@ -150,15 +150,15 @@
     "id": 9,
     "description": "Budget Tracker allows users to manage expenses, track income, and plan savings effectively. You can categorize transactions, view charts, set spending limits, and receive alerts for overspending. The app also offers monthly and yearly reports, helping you make informed financial decisions. It is an essential tool for personal finance management and budgeting.",
     "size": 35,
-    "reviews": 1250,
+    "reviews": 9300,
     "ratingAvg": 4.4,
     "downloads": "8",
     "ratings": [
-      { "name": "1 star", "count": 40 },
-      { "name": "2 star", "count": 35 },
-      { "name": "3 star", "count": 150 },
-      { "name": "4 star", "count": 450 },
-      { "name": "5 star", "count": 575 }
+      { "name": "1 star", "count": 1100 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 1600 },
+      { "name": "4 star", "count": 2300 },
+      { "name": "5 star", "count": 3100 }
     ]
   },
   {
@@ -168,15 +168,15 @@
     "id": 10,
     "description": "WeatherNow provides accurate real-time weather updates, forecasts, and severe weather alerts. Users can view hourly, daily, and weekly forecasts, as well as radar maps and humidity/wind data. The app also allows saving multiple locations and provides lifestyle advice based on weather conditions. It is essential for planning outdoor activities and staying prepared.",
     "size": 25,
-    "reviews": 1800,
+    "reviews": 6700,
     "ratingAvg": 4.3,
     "downloads": "9",
     "ratings": [
-      { "name": "1 star", "count": 50 },
-      { "name": "2 star", "count": 40 },
-      { "name": "3 star", "count": 200 },
-      { "name": "4 star", "count": 600 },
-      { "name": "5 star", "count": 910 }
+      { "name": "1 star", "count": 1050 },
+      { "name": "2 star", "count": 1150 },
+      { "name": "3 star", "count": 1400 },
+      { "name": "4 star", "count": 1600 },
+      { "name": "5 star", "count": 2500 }
     ]
   },
   {
@@ -186,15 +186,15 @@
     "id": 11,
     "description": "Daily Quotes delivers motivational and inspirational quotes to uplift your day. Users can save favorite quotes, share them on social media, and set daily reminders. The app categorizes quotes by themes, including happiness, success, and mindfulness. It is perfect for personal reflection, boosting positivity, and finding daily encouragement.",
     "size": 15,
-    "reviews": 600,
+    "reviews": 3000,
     "ratingAvg": 4.7,
     "downloads": "12",
     "ratings": [
-      { "name": "1 star", "count": 10 },
-      { "name": "2 star", "count": 5 },
-      { "name": "3 star", "count": 40 },
-      { "name": "4 star", "count": 150 },
-      { "name": "5 star", "count": 395 }
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 1150 },
+      { "name": "3 star", "count": 1250 },
+      { "name": "4 star", "count": 1350 },
+      { "name": "5 star", "count": 1500 }
     ]
   },
   {
@@ -204,15 +204,15 @@
     "id": 12,
     "description": "News Daily keeps you updated with the latest global and local news. It provides breaking news alerts, live headlines, videos, and in-depth articles. Users can customize news feeds, save stories, and share articles. The app covers politics, technology, entertainment, and sports, offering a comprehensive news experience in one place.",
     "size": 60,
-    "reviews": 2000,
+    "reviews": 11500,
     "ratingAvg": 4.2,
     "downloads": "9",
     "ratings": [
-      { "name": "1 star", "count": 60 },
-      { "name": "2 star", "count": 50 },
-      { "name": "3 star", "count": 300 },
-      { "name": "4 star", "count": 700 },
-      { "name": "5 star", "count": 890 }
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 1600 },
+      { "name": "3 star", "count": 2000 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 3200 }
     ]
   },
   {
@@ -222,15 +222,15 @@
     "id": 13,
     "description": "Recipe Book offers thousands of recipes from around the world with step-by-step instructions and photos. Users can create meal plans, save favorite recipes, and explore new dishes. The app includes dietary filters, cooking timers, and tips for ingredient substitutions. It is ideal for beginners and expert cooks looking to expand their culinary skills.",
     "size": 55,
-    "reviews": 1100,
+    "reviews": 5500,
     "ratingAvg": 4.5,
     "downloads": "4",
     "ratings": [
-      { "name": "1 star", "count": 20 },
-      { "name": "2 star", "count": 25 },
-      { "name": "3 star", "count": 150 },
-      { "name": "4 star", "count": 400 },
-      { "name": "5 star", "count": 505 }
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 1100 },
+      { "name": "3 star", "count": 1300 },
+      { "name": "4 star", "count": 1600 },
+      { "name": "5 star", "count": 2500 }
     ]
   },
   {
@@ -240,15 +240,15 @@
     "id": 14,
     "description": "Sleep Tracker monitors sleep patterns to help you improve sleep quality. The app tracks sleep duration, cycles, and disturbances, providing personalized insights. Users can set sleep goals, alarms, and bedtime reminders. It also offers relaxing sounds and bedtime tips for better rest. This app is perfect for anyone seeking healthier sleep habits.",
     "size": 28,
-    "reviews": 900,
+    "reviews": 6800,
     "ratingAvg": 4.6,
     "downloads": "7",
     "ratings": [
-      { "name": "1 star", "count": 15 },
-      { "name": "2 star", "count": 10 },
-      { "name": "3 star", "count": 100 },
-      { "name": "4 star", "count": 300 },
-      { "name": "5 star", "count": 475 }
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 1300 },
+      { "name": "3 star", "count": 1400 },
+      { "name": "4 star", "count": 1600 },
+      { "name": "5 star", "count": 2300 }
     ]
   },
   {
@@ -258,15 +258,15 @@
     "id": 15,
     "description": "Language Dictionary helps you translate words and phrases in multiple languages. Users can search meanings, synonyms, antonyms, and example sentences. The app includes offline access, pronunciation guides, and word of the day features. It is ideal for students, travelers, and language enthusiasts who want to improve vocabulary and communication skills.",
     "size": 35,
-    "reviews": 1300,
+    "reviews": 9500,
     "ratingAvg": 4.4,
     "downloads": "6",
     "ratings": [
-      { "name": "1 star", "count": 25 },
-      { "name": "2 star", "count": 20 },
-      { "name": "3 star", "count": 150 },
-      { "name": "4 star", "count": 450 },
-      { "name": "5 star", "count": 655 }
+      { "name": "1 star", "count": 1100 },
+      { "name": "2 star", "count": 1300 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 2200 },
+      { "name": "5 star", "count": 3400 }
     ]
   },
   {
@@ -276,15 +276,15 @@
     "id": 16,
     "description": "Workout Timer offers customizable timers for interval training, HIIT, and circuit workouts. Users can create multiple timers with different exercises, durations, and rest periods. The app includes voice guidance, vibration alerts, and music integration. It is suitable for home workouts, gym routines, and personal training sessions.",
     "size": 25,
-    "reviews": 800,
+    "reviews": 4700,
     "ratingAvg": 4.5,
     "downloads": "3",
     "ratings": [
-      { "name": "1 star", "count": 15 },
-      { "name": "2 star", "count": 10 },
-      { "name": "3 star", "count": 70 },
-      { "name": "4 star", "count": 250 },
-      { "name": "5 star", "count": 455 }
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 1300 },
+      { "name": "4 star", "count": 1500 },
+      { "name": "5 star", "count": 1700 }
     ]
   }
 ]

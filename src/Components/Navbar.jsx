@@ -46,10 +46,10 @@ const Navbar = () => {
         </div>
 
          <div className="navbar-end">
-         <button className="btn btn-sm  text-white bg-gradient-to-r from-[#632EE3] to-[#9F62F2] flex gap-1 mr-3">
+         <a  href="https://github.com/Shuvro882" target="_blank"rel="noopener noreferrer" className="btn btn-sm  text-white bg-gradient-to-r from-[#632EE3] to-[#9F62F2] flex gap-1 mr-3">
     <img src={Vec} alt="" className='w-5'/>
     Contribute
-         </button>
+         </a>
          </div>
       </div>
     );

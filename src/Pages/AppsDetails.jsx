@@ -6,6 +6,9 @@ import rating from '../assets/icon-ratings.png';
 import review from '../assets/icon-review.png';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import LoadingSpinner from '../Components/LoadingSpinner';
+import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer } from "recharts";
+
 
 const AppsDetails = () => {
   const { id } = useParams();
@@ -25,7 +28,7 @@ const AppsDetails = () => {
     }
   }, [app]);
 
-  if (loading) return <p>Loading...</p>;
+  if (loading) return <LoadingSpinner></LoadingSpinner>
   if (error) return <p className="text-red-500">{error}</p>;
   if (!app) return <p className="text-gray-500 text-center">App not found</p>;
 
@@ -104,41 +107,36 @@ const AppsDetails = () => {
 
       <hr className="my-6 border-gray-200" />
 
-      {/* Ratings Section */}
-      <div>
-        <h2 className="text-lg font-semibold text-gray-800 mb-4">Ratings</h2>
 
-        {/* Rating Bars */}
-        <div className="space-y-3">
-          {[
-            { star: '5 star', width: 'w-[95%]' },
-            { star: '4 star', width: 'w-[70%]' },
-            { star: '3 star', width: 'w-[35%]' },
-            { star: '2 star', width: 'w-[20%]' },
-            { star: '1 star', width: 'w-[10%]' },
-          ].map((item, idx) => (
-            <div key={idx} className="flex items-center gap-3">
-              <span className="w-12 text-sm text-gray-600">{item.star}</span>
-              <div className="relative flex-1 h-4 bg-gray-100 rounded">
-                <div
-                  className={`absolute left-0 top-0 h-4 bg-orange-400 rounded ${item.width}`}
-                ></div>
-              </div>
-            </div>
-          ))}
-        </div>
+<div className="mt-6">
+  <h2 className="text-lg font-semibold text-gray-800 mb-4">Ratings</h2>
 
-        {/* X-Axis Numbers */}
-        <div className="flex justify-between text-xs text-gray-500 mt-2 pl-14 pr-2">
-          <span>0</span>
-          <span>3000</span>
-          <span>6000</span>
-          <span>9000</span>
-          <span>12000</span>
-        </div>
-      </div>
+  <div className="bg-white p-4 rounded-lg shadow-sm">
+    <ResponsiveContainer width="100%" height={250}>
+      <BarChart
+        data={[...app.ratings].reverse()}
+        layout="vertical"
+        margin={{ top: 5, right: 30, left: 30, bottom: 5 }}
+      >
+        <XAxis
+          type="number"
+          domain={[0, 'dataMax + 1000']}
+          tickFormatter={(value) => `${value}`}
+        />
+        <YAxis
+          type="category"
+          dataKey="name"
+          tick={{ fill: "#374151" }}
+          width={70}
+        />
+        <Tooltip formatter={(value) => `${value}`} />
+        <Bar dataKey="count" fill="#FFA500"  />
+      </BarChart>
+    </ResponsiveContainer>
+  </div>
+</div>
 
-      <hr className="my-6 border-gray-200" />
+<hr className="my-6 border-gray-200" />
 
       {/* Description Section */}
       <div>
