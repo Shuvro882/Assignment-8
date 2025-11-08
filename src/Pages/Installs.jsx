@@ -3,15 +3,23 @@ import download from '../assets/icon-downloads.png';
 import rating from '../assets/icon-ratings.png';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import LoadingSpinner from '../Components/LoadingSpinner'; 
+
 
 const Installs = () => {
     const [sortDownload, setSortDownload] = useState('none')
     const [installList, setInstallList] = useState([])
+    const [loading, setLoading] = useState(true);
     
     useEffect(() => {
-    const savedList = JSON.parse(localStorage.getItem('installation'))
-    if(savedList) setInstallList(savedList)
-    },[])
+    const timer = setTimeout(() => {
+      const savedList = JSON.parse(localStorage.getItem('installation'));
+      if (savedList) setInstallList(savedList);
+      setLoading(false);
+    }, 300);
+
+    return () => clearTimeout(timer);
+  }, []);
 
    const sortedItem = (() => {
     if (sortDownload === 'downloads-asc') {
@@ -33,7 +41,9 @@ const handleRemove = id => {
     toast.success('App uninstall successfully!');
 }
 
-
+if (loading) {
+    return <LoadingSpinner />;
+  }
 
     return (
       <div className='max-w-screen-2xl w-full sm:px-4 md:px-8 lg:px-12 sm:py-4 md:py-7 lg:py-10'>

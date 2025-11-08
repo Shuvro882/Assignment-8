@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import useApps from '../Hooks/useApps';
 import AppsCard from '../Components/AppsCard';
-import AppError from '../assets/App-Error.png';
 import AppNot from './AppNot';
+import LoadingSpinner from '../Components/LoadingSpinner';
 
 
 
@@ -11,21 +11,32 @@ const Apps = () => {
   const { apps } = useApps();
   const [search, setSearch] = useState('');
   const term = search.trim().toLowerCase();
-
+  const [loading, setLoading] = useState(true);
+  
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 500);
+    return () => clearTimeout(timer);
+  }, []);
+  
+  
   const searchApps = term
     ? apps.filter(app => app.title.toLowerCase().includes(term))
     : apps;
+    
 
   return (
     <div className="max-w-screen-2xl w-full sm:px-4 md:px-8 lg:px-12 sm:py-4 md:py-7 lg:py-10">
-      <div className="mx-auto text-center">
-        <h1 className="font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-center">
-          Our All Applications
-        </h1>
-        <p className="text-[#627382] my-2">
-          Explore All Apps on the Market developed by us. We code for Millions
-        </p>
+      <div className="mx-auto text-center px-4 sm:px-6 md:px-8">
+       <h1 className="font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-tight">
+        Our All Applications
+         </h1>
+          <p className="text-[#627382] my-2 text-sm sm:text-base md:text-lg">
+            Explore All Apps on the Market developed by us. We code for Millions
+          </p>
       </div>
+
 
       <div className="flex justify-between my-4">
         <h3 className="text-2xl font-semibold">
@@ -49,27 +60,36 @@ const Apps = () => {
               <path d="m21 21-4.3-4.3"></path>
             </g>
           </svg>
-          <input
-            value={search}
-            onChange={e => setSearch(e.target.value)}
-            type="search"
-            required
-            placeholder="Search Apps"
-          />
+  <input
+    value={search}
+    onChange={(e) => {
+    setLoading(true);
+    const value = e.target.value;
+    setSearch(value);
+    setTimeout(() => {
+    setLoading(false);
+    }, 500);
+  }}
+  type="search"
+  required
+  placeholder="Search Apps"
+  />
         </label>
       </div>
 
      
-      {searchApps.length > 0 ? (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
-          {searchApps.map(app => (
-            <AppsCard key={app.id} app={app} />
-          ))}
-        </div>
-      ) : (
-        <AppNot></AppNot>
-        
-      )}
+  {loading ? (
+      <LoadingSpinner />
+     ) : searchApps.length > 0 ? (
+  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+    {searchApps.map(app => (
+      <AppsCard key={app.id} app={app} />
+     ))}
+  </div>
+     ) : (
+    <AppNot />
+   )}
+
     </div>
   );
 };

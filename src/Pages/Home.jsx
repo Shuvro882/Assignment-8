@@ -1,17 +1,31 @@
-import React from 'react';
-
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router';
 import AppsCard from '../Components/AppsCard';
 import Banner from './banner';
 import useApps from '../Hooks/useApps';
+import LoadingSpinner from '../Components/LoadingSpinner';
 
 const Home = () => {
-    // const apps = useLoaderData()
-    const {apps, loading, error} = useApps()
+    
+    const { apps } = useApps()
+    const [loading, setLoading] = useState(true);
+    
+    useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 300);
 
-    const trendingApps = apps.slice(0, 8)
-    console.log(apps);
-    return (
+    return () => clearTimeout(timer);
+  }, []);
+
+  const trendingApps = apps.slice(0, 8);
+
+  if (loading) {
+    return <LoadingSpinner />;
+  }
+    
+  
+  return (
         
         <div>
             <div>
