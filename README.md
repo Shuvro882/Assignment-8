@@ -1,4 +1,4 @@
-# My First Hero
+# My First Hero App
 
 ## Description
 My First Hero is a fun and interactive web app designed for users who love creativity and adventure. In this app, you can create and customize your very own hero characters, choosing from a variety of costumes, accessories, and special abilities. Once your hero is ready, embark on exciting missions and challenges that test your strategy and decision-making skills.
